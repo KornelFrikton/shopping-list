@@ -1,0 +1,81 @@
+form {
+    border-left: 10px solid rgb(252, 163, 17);
+    border-right: 5px solid rgb(252, 163, 17);
+    border-bottom: 1px solid rgb(252, 163, 17);
+
+    position: absolute;
+    z-index: inherit;
+    background: rgb(229,229,229);
+    top: 0px;
+    left: 0px;
+    transition: left 3s ease;
+    max-width: 400px;
+    user-select: none;
+}
+
+.coverpage {
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    background-color: rgba(255,255,255,0.9);
+    width: 100%;
+    height: 300%;
+}
+
+.recName h2 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    background: rgb(20,33,61);
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.recName {
+    background: rgb(20,33,61);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0px 30px 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.column1 {
+    max-width: 300px;
+}
+
+.column2 {
+    max-width: 100px;
+}
+
+.ingredient,
+.ingPicture {
+    height: 120px;
+    text-align: left;
+    font-size: 1.6rem;
+    
+    align-items: center;
+    display: flex;
+}
+
+.ingPicture img {
+    max-width: 100px;
+    padding-left: 20px;
+}
+
+input[type=checkbox] {
+    margin: 15px;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type=checkbox]:checked + label {
+    color: green;
+    text-decoration: line-through;
+}

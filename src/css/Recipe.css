@@ -1,0 +1,78 @@
+.media {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.pic {
+    min-width: 150px;
+    box-shadow: 5px 5px 20px black;
+    margin: 20px 5px;
+}
+
+img {
+    max-width: 60%;
+    height: auto;
+}
+
+.vid {  
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    padding: 54% 0 0 0;
+}
+
+.respvid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+button {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(252, 163, 17);
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+    
+    cursor: pointer;
+    user-select: none;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px black;
+    outline: none;
+}
+
+.details {
+    min-width: 200px;
+    text-align: justify;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 0px 10px 10px;
+
+    border-radius: 5px;
+    background: rgb(229, 229, 229);
+    box-shadow: 5px 5px 5px black;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    background: rgb(229, 229, 229);
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding: 5px 0px 10px 0px;
+}
